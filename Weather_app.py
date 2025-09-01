@@ -53,7 +53,7 @@ textfield.pack(pady = 20)
 textfield.focus()
 textfield.bind('<Return>', getweather)
 
-# Added Button 👇
+#  Button 
 btn = tk.Button(canvas, text="Get Weather", font=f, command=lambda: getweather(canvas), bg="#4CAF50", fg="white")
 btn.pack(pady=10)
 
